@@ -18,7 +18,8 @@ def trang_chu():
 @app.route('/products/<int:id>')
 def chi_tiet_san_pham(id):
     product = dao.load_product_details(id)
-    return render_template("products-detail.html", p=product)
+    cates = dao.load_categories()
+    return render_template("products-detail.html", p=product, cates=cates)
 
 if __name__ == "__main__":
     with app.app_context():
