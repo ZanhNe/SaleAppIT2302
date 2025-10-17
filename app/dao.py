@@ -6,11 +6,17 @@ def load_categories():
         cates = json.load(f)
         return cates
 
-def load_products():
+def load_products(q=None, c=None):
     with open("data/products.json", encoding="utf-8") as f:
         products = json.load(f)
+        if c:
+            products=[p for p in products if int(c) == int(p['cate_id'])]
+        if q:
+            products = [p for p in products if p["name"].find(q) >= 0]
         return products
 
 
+
+
 if __name__ == "__main__":
-    print(load_products())
+    print(load_products(None, 2))
