@@ -1,0 +1,58 @@
+[
+  {
+    "id": 6,
+    "name": "Samsung Galaxy S22 Ultra",
+    "image": "https://samsung.ngocnguyen.vn/cdn/images/202403/goods_img/samsung-galaxy-s22-ultra-5g-my--like-new-99-G15599-1711780442982.png",
+    "price": 11300000,
+    "cate_id": 2
+  },
+  {
+    "id": 7,
+    "name": "iPhone 8 256GB",
+    "image": "https://bachlongstore.vn/vnt_upload/product/10_2023/4621.png",
+    "price": 4350000,
+    "cate_id": 2
+  },
+  {
+    "id": 8,
+    "name": "iPad (A16) Wifi 256GB",
+    "image": "https://minhtuanmobile.com/uploads/products/250305021528-ipad-gen-11-bac.png",
+    "price": 11190000,
+    "cate_id": 3
+  },
+  {
+    "id": 1,
+    "name": "Iphone 17",
+    "image": "https://24hstore.vn/images/products/2025/09/11/original/iphone-17-pro-max-cam-nb_1757564962.jpg",
+    "price": 36590000,
+    "cate_id": 2
+  },
+  {
+    "id": 2,
+    "name": "MacBook Air M4",
+    "image": "https://minhtuanmobile.com/uploads/products/250306105423-macbook-air-m4-den.png",
+    "price": 30490000,
+    "cate_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Iphone 15",
+    "image": "https://24hstore.vn/images/products/2024/08/27/large/iphone-15-xanh-duong.jpg",
+    "price": 15990000,
+    "cate_id": 2
+  },
+  {
+    "id": 4,
+    "name": "Laptop Lenovo IdeaPad Slim 5",
+    "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_16__6_106.png",
+    "price": 36590000,
+    "cate_id": 1
+  },
+  {
+    "id": 5,
+    "name": "iPad Air M3",
+    "image": "https://minhtuanmobile.com/uploads/products/250305104946-ipad-air-7-purple.png",
+    "price": 24990000,
+    "cate_id": 3
+  }
+]

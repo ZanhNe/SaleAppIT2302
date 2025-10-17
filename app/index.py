@@ -7,7 +7,8 @@ app = Flask(__name__)
 @app.route("/")
 def trang_chu():
     cates = dao.load_categories()
-    return render_template("index.html", cates=cates)
+    products = dao.load_products()
+    return render_template("index.html", cates=cates, products=products)
 
 
 if __name__ == "__main__":
