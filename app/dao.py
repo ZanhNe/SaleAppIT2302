@@ -13,6 +13,7 @@ def load_products(q=None, c=None):
             products=[p for p in products if int(c) == int(p['cate_id'])]
         if q:
             products = [p for p in products if p["name"].find(q) >= 0]
+
         return products
 
 

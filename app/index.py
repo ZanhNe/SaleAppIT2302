@@ -9,7 +9,7 @@ def trang_chu():
     q = request.args.get('q')
     cates = dao.load_categories()
     products = dao.load_products(q, c)
-    return render_template("index.html", cates=cates, products=products, c_id=c)
+    return render_template("index.html", cates=cates, products=products, c_id=int(c))
 
 
 
